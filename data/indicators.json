@@ -1,0 +1,600 @@
+[
+  {
+    "id": "78",
+    "name": "Переводимые депозиты в национальной валюте:",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "79",
+    "name": "Другие депозиты в национальной валюте:",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "80",
+    "name": "за декабрь 2019 данные с учетом заключительных оборотов",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "81",
+    "name": "Переводимые депозиты небанковских юридических лиц в нац валюте",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "82",
+    "name": "Другиеде позиты небанковских юридических лиц в нац валюте",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "83",
+    "name": "Переводимые депозиты небанковских юридических лиц в ин валюте",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "84",
+    "name": "Другие небанковских юридических лиц в ин валюте",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "85",
+    "name": "Переводимые депозиты физических лиц в нац валюте",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "86",
+    "name": "Другие депозиты физических лиц в нац валюте",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "87",
+    "name": "Переводимые депозиты физических лиц в ин валюте",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "88",
+    "name": "Другие депозиты физических лиц в ин валюте",
+    "section": "Депозиты в депозитных организациях",
+    "api_url": "https://nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-/records?data",
+    "source_url": "https://www.nationalbank.kz/ru/depositoryorganizationsdeposits/depozity-v-depozitnyh-organizaciyah-",
+    "xlsx_name": "_Банки_декомпоз депозитов 150822.xlsx",
+    "form_id": "PAGE_API"
+  },
+  {
+    "id": "27",
+    "name": "Реальный эффективный обменный курс без учета торговли нефтью3",
+    "section": "Индексы эффективных обменных курсов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data?form_id=299&date_from=2026-01-01&date_to=2026-01-01",
+    "source_url": "https://www.nationalbank.kz/ru/news/indeksy-effektivnyh-obmennyh-kursov",
+    "xlsx_name": "_Банки_РЭОК.xlsx",
+    "form_id": "299"
+  },
+  {
+    "id": "28",
+    "name": "НЭОК",
+    "section": "Индексы эффективных обменных курсов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data?form_id=299&date_from=2026-01-01&date_to=2026-01-01",
+    "source_url": "https://www.nationalbank.kz/ru/news/indeksy-effektivnyh-obmennyh-kursov",
+    "xlsx_name": "_Банки_РЭОК.xlsx",
+    "form_id": "299"
+  },
+  {
+    "id": "29",
+    "name": "Номинальный эффективный обменный курс",
+    "section": "Индексы эффективных обменных курсов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data?form_id=299&date_from=2026-01-01&date_to=2026-01-01",
+    "source_url": "https://www.nationalbank.kz/ru/news/indeksy-effektivnyh-obmennyh-kursov",
+    "xlsx_name": "_Банки_РЭОК.xlsx",
+    "form_id": "299"
+  },
+  {
+    "id": "30",
+    "name": "Номинальный эффективный обменный курс без учета торговли нефтью3",
+    "section": "Индексы эффективных обменных курсов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data?form_id=299&date_from=2026-01-01&date_to=2026-01-01",
+    "source_url": "https://www.nationalbank.kz/ru/news/indeksy-effektivnyh-obmennyh-kursov",
+    "xlsx_name": "_Банки_РЭОК.xlsx",
+    "form_id": "299"
+  },
+  {
+    "id": "32",
+    "name": "Реальный обменный курс тенге/рубль 1",
+    "section": "Индексы эффективных обменных курсов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data?form_id=299&date_from=2026-01-01&date_to=2026-01-01",
+    "source_url": "https://www.nationalbank.kz/ru/news/indeksy-effektivnyh-obmennyh-kursov",
+    "xlsx_name": "_Банки_РЭОК.xlsx",
+    "form_id": "299"
+  },
+  {
+    "id": "33",
+    "name": "Реальный обменный курс тенге/евро 1",
+    "section": "Индексы эффективных обменных курсов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data?form_id=299&date_from=2026-01-01&date_to=2026-01-01",
+    "source_url": "https://www.nationalbank.kz/ru/news/indeksy-effektivnyh-obmennyh-kursov",
+    "xlsx_name": "_Банки_РЭОК.xlsx",
+    "form_id": "299"
+  },
+  {
+    "id": "34",
+    "name": "Реальный обменный курс тенге/доллар США 1",
+    "section": "Индексы эффективных обменных курсов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data?form_id=299&date_from=2026-01-01&date_to=2026-01-01",
+    "source_url": "https://www.nationalbank.kz/ru/news/indeksy-effektivnyh-obmennyh-kursov",
+    "xlsx_name": "_Банки_РЭОК.xlsx",
+    "form_id": "299"
+  },
+  {
+    "id": "119",
+    "name": "Кредиты экономике в расширенном определении, всего",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "120",
+    "name": "от банковского сектора",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "121",
+    "name": "от других организаций",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "122",
+    "name": "ипотечных организаций",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "123",
+    "name": "прочих субъектов квазигосударственного сектора",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "124",
+    "name": "организаций, осуществляющих микрофинансовую деятельность*",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "125",
+    "name": "из общего объема кредитов экономике кредиты бизнесу",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "126",
+    "name": "в национальной валюте",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "127",
+    "name": "в иностранной валюте",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "128",
+    "name": "из общего объема кредитов экономике кредиты населению",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "129",
+    "name": "в национальной валюте",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "130",
+    "name": "в иностранной валюте",
+    "section": "Кредиты экономике в расширенном определении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=445&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/kredity-ekonomike-v-rasshirennom-opredelenii/rubrics/2002",
+    "xlsx_name": "_Банки_кредиты по расширенной_КЗ.xlsx",
+    "form_id": "445"
+  },
+  {
+    "id": "50",
+    "name": "Трансферты из НФ",
+    "section": "Операции Национального фонда и финансовые инструменты казахстанских эмитентов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=470&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/operations-NF/rubrics/2197",
+    "xlsx_name": "_Макро_Госдолг размещения МФ РК.xlsx",
+    "form_id": "470"
+  },
+  {
+    "id": "51",
+    "name": "Трансферт из Национального фонда млрд тенге",
+    "section": "Операции Национального фонда и финансовые инструменты казахстанских эмитентов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=470&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/operations-NF/rubrics/2197",
+    "xlsx_name": "_Макро_Госдолг размещения МФ РК.xlsx",
+    "form_id": "470"
+  },
+  {
+    "id": "52",
+    "name": "Другие операции млрд тенге",
+    "section": "Операции Национального фонда и финансовые инструменты казахстанских эмитентов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=470&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/operations-NF/rubrics/2197",
+    "xlsx_name": "_Макро_Госдолг размещения МФ РК.xlsx",
+    "form_id": "470"
+  },
+  {
+    "id": "53",
+    "name": "Объем продажи млн долл. США",
+    "section": "Операции Национального фонда и финансовые инструменты казахстанских эмитентов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=470&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/operations-NF/rubrics/2197",
+    "xlsx_name": "_Макро_Госдолг размещения МФ РК.xlsx",
+    "form_id": "470"
+  },
+  {
+    "id": "54",
+    "name": "Остаток на тенговом счете Национального фонда млрд тенге",
+    "section": "Операции Национального фонда и финансовые инструменты казахстанских эмитентов",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=470&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/operations-NF/rubrics/2197",
+    "xlsx_name": "_Макро_Госдолг размещения МФ РК.xlsx",
+    "form_id": "470"
+  },
+  {
+    "id": "164",
+    "name": "Курс USDKZT, ось справа",
+    "section": "Официальные курсы валют в среднем за период",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=33&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://nationalbank.kz/ru/news/oficialnye-kursy",
+    "xlsx_name": "_Банки_Чистые продажи.xlsx",
+    "form_id": "33"
+  },
+  {
+    "id": "62",
+    "name": "Текущий счет ПБ",
+    "section": "Платежный баланс",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=479&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/platezhnyy-balans-vn-sektora",
+    "xlsx_name": "_Макро_Текущий BoP.xlsx",
+    "form_id": "479"
+  },
+  {
+    "id": "63",
+    "name": "Торговый баланс",
+    "section": "Платежный баланс",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=479&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/platezhnyy-balans-vn-sektora",
+    "xlsx_name": "_Макро_Текущий BoP.xlsx",
+    "form_id": "479"
+  },
+  {
+    "id": "64",
+    "name": "Баланс услуг",
+    "section": "Платежный баланс",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=479&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/platezhnyy-balans-vn-sektora",
+    "xlsx_name": "_Макро_Текущий BoP.xlsx",
+    "form_id": "479"
+  },
+  {
+    "id": "65",
+    "name": "Баланс первичных доходов",
+    "section": "Платежный баланс",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=479&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/platezhnyy-balans-vn-sektora",
+    "xlsx_name": "_Макро_Текущий BoP.xlsx",
+    "form_id": "479"
+  },
+  {
+    "id": "66",
+    "name": "Баланс вторичных доходов",
+    "section": "Платежный баланс",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=479&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/platezhnyy-balans-vn-sektora",
+    "xlsx_name": "_Макро_Текущий BoP.xlsx",
+    "form_id": "479"
+  },
+  {
+    "id": "7",
+    "name": "Центральный (г. Астана)",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "8",
+    "name": "Алматы",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "9",
+    "name": "г. Шымкент",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "10",
+    "name": "Алматинский областной",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "11",
+    "name": "Акмолинский областной",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "12",
+    "name": "Актюбинский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "13",
+    "name": "Атырауский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "14",
+    "name": "Восточно-Казахстанский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "15",
+    "name": "Жамбылский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "16",
+    "name": "Западно-Казахстанский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "17",
+    "name": "Карагандинский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "18",
+    "name": "Кызылординский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "19",
+    "name": "Костанайский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "20",
+    "name": "Мангистауский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "21",
+    "name": "Павлодарский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "22",
+    "name": "Северо-Казахстанский",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "23",
+    "name": "Туркестан",
+    "section": "Покупка/продажа иностранной валюты",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=28&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/news/pokupkaprodazha-inostrannoy-valyuty-/rubrics/2323",
+    "xlsx_name": "_Банки_нетто продажи валюты_временный.xlsx",
+    "form_id": "28"
+  },
+  {
+    "id": "46",
+    "menu_name": "🏭 По видам деятельности",
+    "name": "Валовый приток прямых инвестиций в Казахстан от иностранных прямых инвесторов по видам экономической деятельности резидентов",
+    "section": "Прямые инвестиции по направлению вложения",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=286&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "Прямые инвестиции по направлению вложения | Национальный Банк Казахстана",
+    "xlsx_name": "_Инвест_Валовый приток3q24ru.xlsx",
+    "form_id": "286"
+  },
+  {
+    "id": "48",
+    "menu_name": "🗺 По регионам",
+    "name": "Валовый приток прямых инвестиций в Казахстан от иностранных прямых инвесторов в разрезе регионов Казахстана",
+    "section": "Прямые инвестиции по направлению вложения",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=288&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "Прямые инвестиции по направлению вложения | Национальный Банк Казахстана",
+    "xlsx_name": "_Инвест_Валовый приток3q24ru.xlsx",
+    "form_id": "288"
+  },
+  {
+    "id": "49",
+    "menu_name": "🏢 По регионам и отраслям",
+    "name": "Валовый приток прямых инвестиций в Казахстан от иностранных прямых инвесторов в разрезе регионов Казахстана и по видам экономической деятельности",
+    "section": "Прямые инвестиции по направлению вложения",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=289&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "Прямые инвестиции по направлению вложения | Национальный Банк Казахстана",
+    "xlsx_name": "_Инвест_Валовый приток3q24ru.xlsx",
+    "form_id": "289"
+  },
+  {
+    "id": "57",
+    "name": "Объем нот НБРК",
+    "section": "Структура номинированных в национальной валюте ГЦБ в обращении",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=430&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "https://www.nationalbank.kz/ru/structuresecurities/struktura-valyuty-gcb-v-obrashchenii",
+    "xlsx_name": "_Макро_Госдолг размещения МФ РК.xlsx",
+    "form_id": "430"
+  },
+  {
+    "id": "59",
+    "name": "Кол-вореализованныхслитков",
+    "section": "Прочее",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=476&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "нет",
+    "xlsx_name": "_Макро_Реализация золота населению.xlsx",
+    "form_id": "476"
+  },
+  {
+  "id": "35",
+  "name": "Реальный обменный курс тенге/CNY 1",
+  "section": "Индексы эффективных обменных курсов",
+  "api_url": "https://data.nationalbank.kz/api/report/stat-data?form_id=299&date_from=2026-01-01&date_to=2026-01-01",
+  "source_url": "https://www.nationalbank.kz/ru/news/indeksy-effektivnyh-obmennyh-kursov",
+  "xlsx_name": "_Банки_РЭОК.xlsx",
+  "form_id": "299"
+  },
+  {
+  "id": "47",
+  "menu_name": "🌍 По странам",
+  "name": "Валовый приток иностранных прямых инвестиций в Республику Казахстан от иностранных прямых инвесторов по странам",
+  "section": "Прямые инвестиции по направлению вложения",
+  "api_url": "https://data.nationalbank.kz/api/report/stat-data-locales?form_id=287&date_from=2025-01-01&date_to=2026-12-31",
+  "source_url": "https://data.nationalbank.kz/statistics",
+  "xlsx_name": "_Инвест_Валовый приток3q24ru.xlsx",
+  "form_id": "287"
+  },
+  {
+    "id": "60",
+    "name": "Вес",
+    "section": "Прочее",
+    "api_url": "https://data.nationalbank.kz/api/report/stat-data-locale?form_id=476&date_from=2025-01-01&date_to=2025-01-01&lang=ru",
+    "source_url": "нет",
+    "xlsx_name": "_Макро_Реализация золота населению.xlsx",
+    "form_id": "476"
+  }
+]
