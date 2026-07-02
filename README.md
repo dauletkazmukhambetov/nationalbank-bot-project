@@ -1,110 +1,267 @@
-# TENGENOMIKA BOT 2.0 — API + Excel источники
+# 📊 EcoMind
+### AI-Powered Economic Analytics Platform
 
-Telegram-бот формирует Excel-отчёты по API Национального Банка РК и локальным Excel-файлам компании. В отчётах создаются листы с описанием, данными и редактируемым графиком Excel.
+> A modular Telegram platform for collecting, analyzing, and visualizing economic data from the National Bank of Kazakhstan and external financial sources.
 
-## Что добавлено
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Aiogram](https://img.shields.io/badge/Aiogram-3.x-green)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
+![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel-success)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-### API Национального Банка РК
+---
 
-- меню строится из `data/indicators.json`;
-- пользователь выбирает раздел → показатель → год;
-- бот получает JSON через API;
-- данные фильтруются по выбранному показателю и году;
-- формируется `.xlsx` отчёт.
+# 📌 Overview
 
-### Локальные Excel-источники
+EcoMind is an AI-ready economic analytics platform developed during an industrial internship.
 
-Добавлены два Excel-файла:
+The system automatically retrieves economic indicators from the National Bank of Kazakhstan, exchange rates, and fuel prices from external financial sources. It processes the collected data, generates Excel reports with charts, performs statistical analysis, and prepares structured prompts for future AI-generated Telegram publications.
 
-```text
-data/excel_sources/Мониторинг цен АЗС РК_new.xlsx
-data/excel_sources/Курсы валют в обменных пунктах.xlsx
+The platform is designed using a modular architecture that allows new data providers, analytics modules, and LLMs to be integrated with minimal changes.
+
+---
+
+# ✨ Features
+
+- 📈 National Bank of Kazakhstan Open Data API integration
+- 💱 Exchange rates monitoring (Kurs.kz)
+- ⛽ Fuel price monitoring (OilClub.kz)
+- 📊 Automatic Excel report generation
+- 📉 Automatic chart generation
+- 📋 Metadata generation
+- 📁 XLSX export
+- ⚡ Five-minute caching
+- 🔍 Indicator filtering
+- 📚 Knowledge base integration
+- 🤖 AI prompt generation
+- 🧠 Economic trend analysis
+- 📨 Telegram Bot interface
+
+---
+
+# 🏗 System Architecture
+
+> Overall platform architecture.
+
+
+images/system_architecture.png
+
+The platform follows a layered architecture:
+
+- User Layer
+- Telegram Application Layer
+- External Data Sources
+- Data Processing Layer
+- AI / LLM Layer
+- Output Layer
+
+This design allows every component to evolve independently while keeping the system scalable and maintainable.
+
+---
+
+# 🔄 Data Flow
+
+> End-to-end processing pipeline from user request to publication-ready content.
+
+**⬇️ INSERT DIAGRAM 2 HERE**
+
+```
+images/data_flow.png
 ```
 
-В главном меню появились дополнительные разделы:
+Processing pipeline:
 
-```text
-⛽ Мониторинг цен АЗС РК
-💱 Курсы валют в обменных пунктах
+1. User sends a request
+2. Telegram bot routes the request
+3. Data is retrieved from APIs and external sources
+4. Filtering and preprocessing
+5. Excel report generation
+6. Economic analysis
+7. Knowledge base search
+8. Prompt construction
+9. LLM processing
+10. Publication-ready output
+
+---
+
+# 🏛 Project Architecture
+
+```
+EcoMind
+│
+├── Telegram Bot (Aiogram)
+│
+├── Services
+│   ├── National Bank API
+│   ├── Kurs.kz
+│   ├── OilClub.kz
+│   ├── Report Filters
+│   ├── Economic Analyzer
+│   ├── Prompt Builder
+│   ├── Knowledge Search
+│   ├── Excel Generator
+│   └── Chart Generator
+│
+├── Knowledge Base
+│
+├── Reports
+│
+└── Configuration
 ```
 
-#### Мониторинг цен АЗС
+---
 
-Логика выбора:
+# 📂 Repository Structure
 
-```text
-Город → Вид топлива → Excel-отчёт
+```
+services/
+│
+├── api_client.py
+├── azs_web_service.py
+├── fx_web_service.py
+├── excel_generator.py
+├── graph_generator.py
+├── report_filters.py
+├── economic_analyzer.py
+├── prompt_builder.py
+├── knowledge_search.py
+│
+analysis/
+knowledge/
+models/
+reports/
+data/
+
+main.py
+config.py
 ```
 
-Поддерживаемые виды топлива берутся из файла автоматически:
+---
 
-```text
-АИ-92, АИ-92 Prime, АИ-95, АИ-95 Prime, АИ-98, ДТ, ДТЗ, ДТЗ (ПТФ-32), Газ
-```
+# ⚙ Technologies
 
-#### Курсы валют в обменных пунктах
+## Backend
 
-Логика выбора:
+- Python 3.11
+- Aiogram 3.x
+- Requests
+- BeautifulSoup
+- Pandas
+- OpenPyXL
 
-```text
-Город → Валюта → Покупка / Продажа / Покупка и продажа → Excel-отчёт
-```
+## Data Processing
 
-Поддерживаемые валюты:
+- JSON APIs
+- HTML Parsing
+- Data Cleaning
+- Filtering
+- Statistical Analysis
 
-```text
-USD, EUR, RUB
-```
+## Report Generation
 
-## Установка
+- Excel
+- Charts
+- Metadata Sheets
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-```
+## AI Preparation
 
-Создайте файл `.env` рядом с `main.py`:
+- Prompt Engineering
+- Knowledge Retrieval
+- Similar Publications Search
 
-```env
-BOT_TOKEN=ваш_токен_от_BotFather
-```
+---
 
-## Запуск
+# 📡 Data Sources
 
-```bash
-python main.py
-```
+| Source | Purpose |
+|---------|----------|
+| National Bank of Kazakhstan API | Economic indicators |
+| Kurs.kz | Exchange rates |
+| OilClub.kz | Fuel prices |
+| Internal Knowledge Base | AI prompt generation |
 
-## Структура проекта
+---
 
-```text
-nationalbank_bot_project_pro_filtered/
-├── main.py
-├── config.py
-├── keyboards.py
-├── requirements.txt
-├── .env.example
-├── data/
-│   ├── indicators.json
-│   └── excel_sources/
-│       ├── Мониторинг цен АЗС РК_new.xlsx
-│       └── Курсы валют в обменных пунктах.xlsx
-└── services/
-    ├── api_client.py
-    ├── excel_generator.py
-    ├── graph_generator.py
-    ├── indicators.py
-    ├── local_excel_service.py
-    └── report_filters.py
-```
+# 📊 Generated Reports
 
-## Основные файлы
+The platform automatically generates:
 
-- `main.py` — обработчики Telegram-кнопок и маршрутизация между API и Excel-источниками.
-- `keyboards.py` — inline-кнопки для API, АЗС и обменных пунктов.
-- `services/api_client.py` — получение данных из API.
-- `services/excel_generator.py` — формирование отчётов по API.
-- `services/local_excel_service.py` — чтение локальных Excel-файлов, фильтрация и генерация отчётов.
-- `services/report_filters.py` — фильтры по `form_id` для API Национального Банка.
+- Excel reports
+- Charts
+- Economic summaries
+- Metadata sheets
+- Filtered datasets
 
+---
+
+# 🧠 AI Pipeline
+
+The project is designed for future integration with any Large Language Model.
+
+Supported architecture:
+
+- OpenAI GPT
+- Google Gemini
+- Claude
+- Local Llama
+- Corporate LLM
+
+The generated prompt already contains:
+
+- Economic analysis
+- Trend calculations
+- Similar historical publications
+- Channel writing style
+- Metadata
+
+---
+
+# 🚀 Current Status
+
+✅ Telegram Bot
+
+✅ National Bank API integration
+
+✅ Kurs.kz integration
+
+✅ OilClub.kz integration
+
+✅ Excel report generation
+
+✅ Chart generation
+
+✅ Economic analysis
+
+✅ Knowledge base search
+
+✅ AI prompt generation
+
+⬜ Automatic Telegram publication
+
+⬜ Corporate LLM integration
+
+---
+
+# 💡 Future Improvements
+
+- Scheduled report generation
+- PostgreSQL storage
+- Airflow automation
+- Interactive dashboards
+- REST API
+- Docker deployment
+- CI/CD pipeline
+- Vector database for semantic search
+- Automatic Telegram publishing
+
+---
+
+# 👨‍💻 Author
+
+**Daulet Kazmukhambetov**
+
+Software Engineering Student
+
+Astana IT University
+
+Industrial Practice Project
