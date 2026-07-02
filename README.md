@@ -1,7 +1,7 @@
 # 📊 EcoMind
 ### AI-Powered Economic Analytics Platform
 
-> A modular Telegram platform for collecting, analyzing, and visualizing economic data from the National Bank of Kazakhstan and external financial sources.
+> A modular Telegram platform for collecting, analyzing, visualizing, and preparing economic data for AI-generated publications.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Aiogram](https://img.shields.io/badge/Aiogram-3.x-green)
@@ -11,111 +11,75 @@
 
 ---
 
-# 📌 Overview
+## 📌 Overview
 
-EcoMind is an AI-ready economic analytics platform developed during an industrial internship.
+**EcoMind** is an AI-ready economic analytics platform developed during an industrial internship.
 
-The system automatically retrieves economic indicators from the National Bank of Kazakhstan, exchange rates, and fuel prices from external financial sources. It processes the collected data, generates Excel reports with charts, performs statistical analysis, and prepares structured prompts for future AI-generated Telegram publications.
-
-The platform is designed using a modular architecture that allows new data providers, analytics modules, and LLMs to be integrated with minimal changes.
+The system retrieves economic indicators from the **National Bank of Kazakhstan**, collects exchange rates and fuel prices from external financial sources, processes the data, generates Excel reports with charts, and prepares structured prompts for future AI-generated Telegram publications.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 - 📈 National Bank of Kazakhstan Open Data API integration
-- 💱 Exchange rates monitoring (Kurs.kz)
-- ⛽ Fuel price monitoring (OilClub.kz)
+- 💱 Exchange rates monitoring from Kurs.kz
+- ⛽ Fuel price monitoring from OilClub.kz
 - 📊 Automatic Excel report generation
 - 📉 Automatic chart generation
-- 📋 Metadata generation
-- 📁 XLSX export
 - ⚡ Five-minute caching
 - 🔍 Indicator filtering
 - 📚 Knowledge base integration
-- 🤖 AI prompt generation
 - 🧠 Economic trend analysis
+- 🤖 AI prompt generation
 - 📨 Telegram Bot interface
 
 ---
 
-# 🏗 System Architecture
+## 🏗 System Architecture
 
-> Overall platform architecture.
+![System Architecture](images/system_architecture.png)
 
-
-images/system_architecture.png
-
-The platform follows a layered architecture:
-
-- User Layer
-- Telegram Application Layer
-- External Data Sources
-- Data Processing Layer
-- AI / LLM Layer
-- Output Layer
-
-This design allows every component to evolve independently while keeping the system scalable and maintainable.
+The platform is organized into independent layers: user interface, bot logic, data sources, processing modules, knowledge search, LLM layer, and output delivery.
 
 ---
 
-# 🔄 Data Flow
+## 🔄 Data Flow
 
-> End-to-end processing pipeline from user request to publication-ready content.
+![Data Flow](images/data_flow.png)
 
-**⬇️ INSERT DIAGRAM 2 HERE**
-
-```
-images/data_flow.png
-```
-
-Processing pipeline:
-
-1. User sends a request
-2. Telegram bot routes the request
-3. Data is retrieved from APIs and external sources
-4. Filtering and preprocessing
-5. Excel report generation
-6. Economic analysis
-7. Knowledge base search
-8. Prompt construction
-9. LLM processing
-10. Publication-ready output
+The data pipeline follows the full path from user request to report generation and AI-ready publication text.
 
 ---
 
-# 🏛 Project Architecture
+## 🏛 Project Architecture
 
-```
+```text
 EcoMind
 │
 ├── Telegram Bot (Aiogram)
 │
 ├── Services
 │   ├── National Bank API
-│   ├── Kurs.kz
-│   ├── OilClub.kz
-│   ├── Report Filters
-│   ├── Economic Analyzer
-│   ├── Prompt Builder
-│   ├── Knowledge Search
-│   ├── Excel Generator
-│   └── Chart Generator
+│   ├── Kurs.kz integration
+│   ├── OilClub.kz integration
+│   ├── Report filters
+│   ├── Economic analyzer
+│   ├── Prompt builder
+│   ├── Knowledge search
+│   ├── Excel generator
+│   └── Chart generator
 │
 ├── Knowledge Base
-│
 ├── Reports
-│
 └── Configuration
 ```
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
-```
+```text
 services/
-│
 ├── api_client.py
 ├── azs_web_service.py
 ├── fx_web_service.py
@@ -124,12 +88,11 @@ services/
 ├── report_filters.py
 ├── economic_analyzer.py
 ├── prompt_builder.py
-├── knowledge_search.py
-│
+└── knowledge_search.py
+
 analysis/
 knowledge/
 models/
-reports/
 data/
 
 main.py
@@ -138,43 +101,24 @@ config.py
 
 ---
 
-# ⚙ Technologies
-
-## Backend
+## ⚙️ Technologies
 
 - Python 3.11
 - Aiogram 3.x
-- Requests
-- BeautifulSoup
 - Pandas
 - OpenPyXL
-
-## Data Processing
-
-- JSON APIs
-- HTML Parsing
-- Data Cleaning
-- Filtering
-- Statistical Analysis
-
-## Report Generation
-
-- Excel
-- Charts
-- Metadata Sheets
-
-## AI Preparation
-
-- Prompt Engineering
-- Knowledge Retrieval
-- Similar Publications Search
+- Requests
+- BeautifulSoup
+- JSON API
+- Web scraping
+- SQLite knowledge base
 
 ---
 
-# 📡 Data Sources
+## 📡 Data Sources
 
 | Source | Purpose |
-|---------|----------|
+|---|---|
 | National Bank of Kazakhstan API | Economic indicators |
 | Kurs.kz | Exchange rates |
 | OilClub.kz | Fuel prices |
@@ -182,23 +126,22 @@ config.py
 
 ---
 
-# 📊 Generated Reports
+## 📊 Generated Reports
 
-The platform automatically generates:
+EcoMind automatically generates:
 
 - Excel reports
 - Charts
-- Economic summaries
-- Metadata sheets
 - Filtered datasets
+- Metadata sheets
+- Economic summaries
+- AI-ready prompt structures
 
 ---
 
-# 🧠 AI Pipeline
+## 🧠 AI Pipeline
 
-The project is designed for future integration with any Large Language Model.
-
-Supported architecture:
+The project is designed for future integration with provider-independent LLMs:
 
 - OpenAI GPT
 - Google Gemini
@@ -206,43 +149,29 @@ Supported architecture:
 - Local Llama
 - Corporate LLM
 
-The generated prompt already contains:
-
-- Economic analysis
-- Trend calculations
-- Similar historical publications
-- Channel writing style
-- Metadata
+The generated prompt can include economic analysis, trend calculations, similar historical publications, writing style examples, and report metadata.
 
 ---
 
-# 🚀 Current Status
+## 🚀 Current Status
 
-✅ Telegram Bot
-
-✅ National Bank API integration
-
-✅ Kurs.kz integration
-
-✅ OilClub.kz integration
-
-✅ Excel report generation
-
-✅ Chart generation
-
-✅ Economic analysis
-
-✅ Knowledge base search
-
-✅ AI prompt generation
-
-⬜ Automatic Telegram publication
-
-⬜ Corporate LLM integration
+| Module | Status |
+|---|---|
+| Telegram Bot | ✅ Completed |
+| National Bank API integration | ✅ Completed |
+| Kurs.kz integration | ✅ Completed |
+| OilClub.kz integration | ✅ Completed |
+| Excel report generation | ✅ Completed |
+| Chart generation | ✅ Completed |
+| Economic analysis | ✅ Completed |
+| Knowledge base search | ✅ Completed |
+| AI prompt generation | ✅ Completed |
+| Automatic Telegram publication | ⏳ Planned |
+| Corporate LLM integration | ⏳ Planned |
 
 ---
 
-# 💡 Future Improvements
+## 💡 Future Improvements
 
 - Scheduled report generation
 - PostgreSQL storage
@@ -256,12 +185,9 @@ The generated prompt already contains:
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-**Daulet Kazmukhambetov**
-
-Software Engineering Student
-
-Astana IT University
-
+**Daulet Kazmukhambetov**  
+Software Engineering Student  
+Astana IT University  
 Industrial Practice Project
